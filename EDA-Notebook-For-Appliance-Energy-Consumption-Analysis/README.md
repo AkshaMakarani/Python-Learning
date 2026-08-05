@@ -1,4 +1,4 @@
-# Appliance Energy Consumption — Sensor-Based EDA
+# Appliance Energy Consumption - Sensor-Based EDA
 
 Explanatory data analysis of household appliance energy use, combining indoor wireless sensor readings with outdoor weather data. Framed around the needs of a smart-home energy management company: when energy is used, and which sensor signals are actually informative.
 
@@ -24,4 +24,4 @@ Download `energydata_complete.csv` from UCI and update the path in the import ce
 
 ## Notes and limitations
 
-Correlations are associations, not causal effects. The model uses a random 80/20 split, which leaks future information for time series data — a chronological split would be needed for any real forecasting claim. Natural extensions: non-linear models as in the source paper, lag features, and occupancy proxies.
+Correlations are associations, not causal effects. The model uses a random 80/20 split, which leaks future information for time series data - a chronological split would be needed for any real forecasting claim. Natural extensions: non-linear models as in the source paper, lag features, and occupancy proxies.
